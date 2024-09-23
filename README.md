@@ -3,8 +3,10 @@
 <summary><h5>ACME_System3_Launch</h5></summary>
 #### Description: 
 Opening the ACME System 3 Desktop Application
-#### PreCondition: ACME System3 Path Exists 
-#### PostCondition:  WelcomePage Exist
+#### PreCondition: 
+ACME System3 Path Exists 
+#### PostCondition:  
+WelcomePage Exist
 </details>
 
 ACME System3 Desktop Application Automation Library
