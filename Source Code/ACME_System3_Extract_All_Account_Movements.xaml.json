@@ -1,0 +1,57 @@
+{
+  "DisplayName": "ACME_System3_ExtractAllAccountMovements",
+  "Tooltip": "Description:  Scraping all Account transactions Movements for the specified account\nPreCondition: Account Movements page Exists\nPostCondition: Account values Exists\n\nInArg:\nin_intRetryNumber\nin_tsRetryInterval\nin_intTimeOut\n\nOutArg:\nout_dtAccountInfo\n",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "in_intRetryNumber",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "in_tsRetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intTimeOut",
+      "DisplayName": "in_intTimeOut",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_dtAccountInfo",
+      "DisplayName": "out_dtAccountInfo",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

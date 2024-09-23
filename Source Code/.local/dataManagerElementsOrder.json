@@ -1,0 +1,188 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_LogIn.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_19",
+        "boolPreExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "in_sstrPassword",
+        "in_strEmailPrompt",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Get into.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut",
+        "in_strWI1",
+        "out_strClientID",
+        "out_strAccNumber",
+        "out_strAccAmount"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_AccountInfoScraping.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_30",
+        "dtExtractDataTable&Sequence_18"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dtAccountInfo",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Clients_Search.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_32",
+        "boolPreExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Search_Form.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_32",
+        "boolPreExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_boolIncludeInactiveClient",
+        "in_strSearchByID",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Open_Client_Accounts.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_32",
+        "strDynamicAccNumber&Sequence_3",
+        "boolPreExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NewActivity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPassword&Sequence_1",
+        "dtExtractedData&Sequence_1",
+        "strSearchByID&Sequence_1",
+        "strEmail&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Back_To.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_36",
+        "strCurrentWindowTitle&Sequence_7",
+        "boolPostExists&Sequence_38"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strStopWindowTitle",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Extract_All_Account_Movements.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut",
+        "out_dtAccountInfo"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Open_Client_Movement.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_32"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strDynamicAccNumber",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

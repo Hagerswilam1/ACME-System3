@@ -1,0 +1,45 @@
+{
+  "DisplayName": "ACME_System3_Launch",
+  "Tooltip": "Description:  Opening the ACME System 3 Desktop Application\nPreCondition: ACME System3 Exists in Path: \"C:\\Users\\DELL\\Downloads\\RPA\\lab7\\ACME-System3-v0.1\\ACME-System3-v0.1\\ACME-System3.exe\"\nPostCondition:  WelcomePage Exist\n\nInArg:\nin_intRetryNumber\nin_tsRetryInterval\nin_intTimeOut\n\nOutArg:\n",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "in_intRetryNumber",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "in_tsRetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intTimeOut",
+      "DisplayName": "in_intTimeOut",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

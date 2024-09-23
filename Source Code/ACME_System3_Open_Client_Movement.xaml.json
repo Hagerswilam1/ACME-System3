@@ -1,0 +1,57 @@
+{
+  "DisplayName": "ACME_System3_ClienAccount",
+  "Tooltip": "Description:  Access the Clients -> Search for Client by Client ID menu option in ACME System 3, Enter Client based on the ID and double click the Client Name. Also check “Include Inactive Clients” as sometimes even active clients will not be found otherwise.\nPreCondition: Search For Client By ID Exists\nPostCondition:  Client Details Exists\n\nInArg:\nin_intRetryNumber\nin_tsRetryInterval\nin_intTimeOut\nin_strSearchByID\nin_boolIncludeInactiveClient\n\nOutArg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intTimeOut",
+      "DisplayName": "in_intTimeOut",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strDynamicAccNumber",
+      "DisplayName": "in_strDynamicAccNumber",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "in_intRetryNumber",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "in_tsRetryInterval",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

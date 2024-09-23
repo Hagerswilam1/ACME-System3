@@ -1,0 +1,69 @@
+{
+  "DisplayName": "ACME_System3_LogIn",
+  "Tooltip": "Description:  Login to the ACME System 3 Desktop Application\nPreCondition: System Credentials  Exists\nPostCondition:  Welcome Page Exist\n\nInArg:\nin_intRetryNumber\nin_tsRetryInterval\nin_intTimeOut\nin_strEmailPrompt\nin_sstrPassword\n\nOutArg:\n",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "in_intRetryNumber",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "in_tsRetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strEmailPrompt",
+      "DisplayName": "in_strEmailPrompt",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_sstrPassword",
+      "DisplayName": "in_sstrPassword",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intTimeOut",
+      "DisplayName": "in_intTimeOut",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
