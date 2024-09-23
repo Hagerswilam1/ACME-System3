@@ -1,17 +1,5 @@
-<details>
 
-<summary><h5>ACME_System3_Launch</h5></summary>
-#### Description: 
-Opening the ACME System 3 Desktop Application
-<br/>
-#### PreCondition: 
-ACME System3 Path Exists 
-<br/>
-#### PostCondition:  
-WelcomePage Exist
-</details>
-
-ACME System3 Desktop Application Automation Library
+<h1>ACME System3 Desktop Application Automation Library<h1/>
 This UiPath library automates operations within the ACME System3 desktop application. It can launch the desktop application, log in to an ACME account, search by client ID, extract client details and account movements, and navigate through the application’s windows. This library is a reusable solution for automating tasks related to the ACME System3 desktop environment.
 
 Features
