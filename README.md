@@ -120,7 +120,7 @@ Search for Client by ID Page Exists.
 </details>
 
 
-<details><summary>><h2>Prerequisites</h2></summary
+<details><summary><h2>Prerequisites</h2></summary
 <ul>
     <li>UiPath Studio (latest version)</li>
     <li>Download ACME System3 desktop application</li>
@@ -136,7 +136,7 @@ Search for Client by ID Page Exists.
     <li>Open UiPath Studio and load the library into your project.</li>
 </ol>
 
-<h2>Usage</h2>
+<details><summary><h2>Usage</h2></summary
 <ol>
     <li>Import the Library: After downloading, import the library into your UiPath project.</li>
     <li>Setup Credentials: Ensure that your ACME System3 login credentials are stored securely, either using UiPath Orchestrator Assets or Windows Credential Manager.</li>
@@ -152,6 +152,8 @@ Search for Client by ID Page Exists.
         <li>Close Windows: Closes all open windows and navigates back to the "Search by ID" screen.</li>
     </ul>
 </ol>
+
+</details>
 
 <h2>Example Workflow</h2>
 <ol>
