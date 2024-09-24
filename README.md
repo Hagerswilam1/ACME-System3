@@ -155,7 +155,7 @@ Search for Client by ID Page Exists.
 
 </details>
 
-<h2>Example Workflow</h2>
+<details><summary><h2>Example Workflow</h2></summary
 <ol>
     <li>Launch and Login: The automation starts by launching the ACME System3 application and logging in using stored credentials.</li>
     <li>Search and Navigate: After login, the automation navigates to the "Search by ID" screen and enters a client ID to search for.</li>
@@ -163,6 +163,8 @@ Search for Client by ID Page Exists.
     <li>Extract Account Movements: The automation opens the account movements window, displays all movements, and extracts them for further processing.</li>
     <li>Cleanup: After extraction, it closes all open windows, returning to the "Search by ID" window, and the session is completed.</li>
 </ol>
+
+</details>
 
 <h2>Customization</h2>
 <ul>
