@@ -1,6 +1,6 @@
 <h1>ACME System3 Desktop Application Automation Library</h1>
 <p>This UiPath library automates operations within the ACME System3 desktop application. It can launch the desktop application, log in to an ACME account, search by client ID, extract client details and account movements, and navigate through the application’s windows. This library is a reusable solution for automating tasks related to the ACME System3 desktop environment.</p>
-
+<details>
 <h2>Features</h2>
 <ul>
     <li>Launches the ACME System3 desktop application</li>
@@ -13,6 +13,7 @@
     <li>Extracts all account movements for a given client</li>
     <li>Closes all open windows and returns to the "Search by ID" screen</li>
 </ul>
+</details>
 
 <details>
 
