@@ -14,6 +14,108 @@
     <li>Closes all open windows and returns to the "Search by ID" screen</li>
 </ul>
 
+<details>
+
+<summary><h5>ACME_System3_Launch</h5></summary>
+#### Description: 
+Opening the ACME System 3 Desktop Application
+<br/>
+#### PreCondition: 
+ACME System3 Path Exists 
+<br/>
+#### PostCondition:  
+WelcomePage Exist
+</details>
+
+<details>
+
+<summary><h5>ACME_System3_LogIn</h5></summary>
+#### Description: 
+Login to the ACME System 3 Desktop Application
+<br/>
+#### PreCondition: 
+System Credentials  Exists
+<br/>
+#### PostCondition:  
+Welcome Page Exist
+</details>
+
+<details>
+
+<summary><h5>ACME_System3_Clients_Search</h5></summary>
+#### Description: 
+Access the Clients -> Search for Client by Client ID menu option in ACME System 3 .
+<br/>
+#### PreCondition: 
+Welcome Page Exist
+<br/>
+#### PostCondition:  
+Search For Client By ID Exists
+</details>
+
+<details>
+
+<summary><h5>ACME_System3_Search_Form</h5></summary>
+#### Description: 
+Access the Clients -> Search for Client by Client ID menu option in ACME System 3, Enter Client based on the ID and double click the Client Name. Also check “Include Inactive Clients” as sometimes even active clients will not be found otherwise.
+<br/>
+#### PreCondition: 
+Search For Client By ID Exists
+<br/>
+#### PostCondition:  
+ Client Details Exists
+</details>
+
+<details>
+
+<summary><h5>ACME_System3_Open_Client_Accounts</h5></summary>
+#### Description: 
+Open the Client Deatails for the selected client
+<br/>
+#### PreCondition: 
+Client Details Exists.
+<br/>
+#### PostCondition:  
+Client Account Page Exists.
+</details>
+
+<summary><h5>ACME_System3_Open_Client_Movement</h5></summary>
+#### Description: 
+Access the Clients -> Search for Client by Client ID menu option in ACME System 3, Enter Client based on the ID and double click the Client Name. Also check “Include Inactive Clients” as sometimes even active clients will not be found otherwise.
+<br/>
+#### PreCondition: 
+Search For Client By ID Exists
+<br/>
+#### PostCondition:  
+Client Details Exists
+</details>
+
+<details>
+
+<summary><h5>ACME_System3_Extract_All_Account_Movements</h5></summary>
+#### Description: 
+  Scraping all Account transactions Movements for the specified account
+<br/>
+#### PreCondition: 
+Account Movements page Exists
+<br/>
+#### PostCondition:  
+Account values Exists
+</details>
+
+<details>
+
+<summary><h5>ACME_System3_Back_To</h5></summary>
+#### Description: 
+Close Stacked Window in ACME System 3 Desktop Application
+<br/>
+#### PreCondition: 
+Search for Client by ID Page Exists.
+<br/>
+#### PostCondition:  
+Search for Client by ID Page Exists.
+</details>
+
 <h2>Prerequisites</h2>
 <ul>
     <li>UiPath Studio (latest version)</li>
@@ -65,5 +167,4 @@
 <p>If the ACME System3 application fails to launch, the process will retry a set number of times before exiting.</p>
 <p>Proper exception handling is built into the workflow to ensure smooth navigation and data extraction.</p>
 
-<h2>Contributions</h2>
-<p>Feel free to submit issues or pull requests to enhance the library.</p>
+
