@@ -79,6 +79,8 @@ Client Details Exists.
 Client Account Page Exists.
 </details>
 
+<details>
+    
 <summary><h5>ACME_System3_Open_Client_Movement</h5></summary>
 #### Description: 
 Access the Clients -> Search for Client by Client ID menu option in ACME System 3, Enter Client based on the ID and double click the Client Name. Also check “Include Inactive Clients” as sometimes even active clients will not be found otherwise.
